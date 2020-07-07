@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrontEnd", "FrontEnd\FrontEnd.csproj", "{F5CC6C31-EADD-4F9A-897C-7D04EE9028A2}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FE.Api", "FE.Api\FE.Api.csproj", "{869B1F6A-EB43-4902-A87E-C8F888F6DD02}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. DataAccess", "4. DataAccess", "{F43D4F66-D740-40AF-9FA0-A52EC6823E81}"
@@ -25,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business", "Business\Busine
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FE.Application", "FE.Application\FE.Application.csproj", "{9F41CAB4-A773-4F16-954B-26C05D7B2024}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FE.Application.Contracts", "FE.Application.Contracts\FE.Application.Contracts.csproj", "{5F9460F4-CF66-4446-9A83-F59F93F408EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FE.Application.Contracts", "FE.Application.Contracts\FE.Application.Contracts.csproj", "{5F9460F4-CF66-4446-9A83-F59F93F408EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1 Distributed Services", "1.1 Distributed Services", "{77F54802-A14A-4B03-881F-19D64585EAE8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,18 +37,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F5CC6C31-EADD-4F9A-897C-7D04EE9028A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F5CC6C31-EADD-4F9A-897C-7D04EE9028A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F5CC6C31-EADD-4F9A-897C-7D04EE9028A2}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{F5CC6C31-EADD-4F9A-897C-7D04EE9028A2}.Debug|x64.Build.0 = Debug|Any CPU
-		{F5CC6C31-EADD-4F9A-897C-7D04EE9028A2}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{F5CC6C31-EADD-4F9A-897C-7D04EE9028A2}.Debug|x86.Build.0 = Debug|Any CPU
-		{F5CC6C31-EADD-4F9A-897C-7D04EE9028A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F5CC6C31-EADD-4F9A-897C-7D04EE9028A2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F5CC6C31-EADD-4F9A-897C-7D04EE9028A2}.Release|x64.ActiveCfg = Release|Any CPU
-		{F5CC6C31-EADD-4F9A-897C-7D04EE9028A2}.Release|x64.Build.0 = Release|Any CPU
-		{F5CC6C31-EADD-4F9A-897C-7D04EE9028A2}.Release|x86.ActiveCfg = Release|Any CPU
-		{F5CC6C31-EADD-4F9A-897C-7D04EE9028A2}.Release|x86.Build.0 = Release|Any CPU
 		{869B1F6A-EB43-4902-A87E-C8F888F6DD02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{869B1F6A-EB43-4902-A87E-C8F888F6DD02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{869B1F6A-EB43-4902-A87E-C8F888F6DD02}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -138,6 +126,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{869B1F6A-EB43-4902-A87E-C8F888F6DD02} = {77F54802-A14A-4B03-881F-19D64585EAE8}
 		{D0B85646-64DA-4D0B-BE53-34C0B72296FD} = {F43D4F66-D740-40AF-9FA0-A52EC6823E81}
 		{29F6B2C0-4095-420D-81A3-D0A327A5A5E6} = {F43D4F66-D740-40AF-9FA0-A52EC6823E81}
 		{F6E050EB-3E09-4F11-A802-B2843737ED26} = {059E1AFF-D30C-472E-B7EE-4BFC216FAFB6}

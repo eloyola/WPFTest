@@ -1,0 +1,15 @@
+﻿<Window x:Class="FrontEnd.Views.RegionList"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FrontEnd.Views"
+        mc:Ignorable="d"
+        Title="RegionList" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="dgRegion" IsReadOnly="True">
+            <DataGridTextColumn Header="Name"></DataGridTextColumn>
+            <DataGridTextColumn Header="Description"></DataGridTextColumn>
+        </DataGrid>
+    </Grid>
+</Window>
